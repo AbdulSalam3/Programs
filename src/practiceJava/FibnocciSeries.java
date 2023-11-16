@@ -7,7 +7,8 @@ public class FibnocciSeries {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int limit = sc.nextInt();
-		fibnocci(limit);	
+		fibnocci(limit);
+		System.out.println("Program is completed");
 	}
 
 	private static void fibnocci(int limit) {
